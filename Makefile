@@ -17,4 +17,4 @@ bin/%.o: src/%.c
 		$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf bin/*.o bst
+	rm -rf bin/*.o bst test
